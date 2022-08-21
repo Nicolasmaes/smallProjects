@@ -18,6 +18,10 @@ let food_x;
 let food_y;
 let dx = 10;
 let dy = 0;
+let arr =["item1","item2","item3"];
+let arrObject = {...arr};
+console.log(arrObject)
+
 
 const snakecanvas = document.getElementById('snakecanvas');
 const snakecanvas_ctx = snakecanvas.getContext('2d');
