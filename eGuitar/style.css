@@ -1,0 +1,124 @@
+.container {  
+  background-color: bisque;
+  display: grid;
+    grid-template-columns: 1fr 0.9fr 0.8fr 0.7fr 0.6fr 0.5fr 0.4fr 0.3fr 0.2fr 0.1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    height: 300px;
+    grid-template-areas:
+      "a1 a2 a3 a4 a5 a6 a7 a8 a9 a10"
+      "b1 b2 b3 b4 b5 b6 b7 b8 b9 b10"
+      "c1 c2 c3 c4 c5 c6 c7 c8 c9 c10"
+      "d1 d2 d3 d4 d5 d6 d7 d8 d9 d10"
+      "e1 e2 e3 e4 e5 e6 e7 e8 e9 e10"
+      "f1 f2 f3 f4 f5 f6 f7 f8 f9 f10"
+  }
+  .container div{
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  
+.a1 { 
+  grid-area: a1; }
+.a2 { 
+    grid-area: a2; }
+.a3 { 
+ 
+    grid-area: a3; }
+.a4 { 
+ 
+    grid-area: a4; }
+.a5 { 
+ 
+    grid-area: a5; }
+.a6 { 
+ 
+    grid-area: a6; }
+.a7 { 
+ 
+    grid-area: a7; }
+.a8 { 
+ 
+    grid-area: a8; }
+.a9 { 
+ 
+    grid-area: a9; }
+.a10{ 
+ 
+    grid-area: a10; }
+.b1 { grid-area: b1; }
+.b2 { grid-area: b2; }
+.b3 { grid-area: b3; }
+.b4 { grid-area: b4; }
+.b5 { grid-area: b5; }
+.b6 { grid-area: b6; }
+.b7 { grid-area: b7; }
+.b8 { grid-area: b8; }
+.b9 { grid-area: b9; }
+.b10{ grid-area: b10; }
+.c1 { grid-area: c1; }
+.c2 { grid-area: c2; }
+.c3 { grid-area: c3; }
+.c4 { grid-area: c4; }
+.c5 { grid-area: c5; }
+.c6 { grid-area: c6; }
+.c7 { grid-area: c7; }
+.c8 { grid-area: c8; }
+.c9 { grid-area: c9; }
+.c10{ grid-area: c10; }
+.d1 { grid-area: d1; }
+.d2 { grid-area: d2; }
+.d3 { grid-area: d3; }
+.d4 { grid-area: d4; }
+.d5 { grid-area: d5; }
+.d6 { grid-area: d6; }
+.d7 { grid-area: d7; }
+.d8 { grid-area: d8; }
+.d9 { grid-area: d9; }
+.d10{ grid-area: d10; }
+.e1 { grid-area: e1; }
+.e2 { grid-area: e2; }
+.e3 { grid-area: e3; }
+.e4 { grid-area: e4; }
+.e5 { grid-area: e5; }
+.e6 { grid-area: e6; }
+.e7 { grid-area: e7; }
+.e8 { grid-area: e8; }
+.e9 { grid-area: e9; }
+.e10{ grid-area: e10; }
+.f1 { grid-area: f1; }
+.f2 { grid-area: f2; }
+.f3 { grid-area: f3; }
+.f4 { grid-area: f4; }
+.f5 { grid-area: f5; }
+.f6 { grid-area: f6; }
+.f7 { grid-area: f7; }
+.f8 { grid-area: f8; }
+.f9 { grid-area: f9; }
+.f10{ grid-area: f10; }
+
+.cercle{
+    background-color: maroon;
+    color:white;
+    height: 60%;
+    width: 30px;
+    border-radius: 16px;
+    position: absolute;
+    top: 75%;
+    opacity: 0;
+}
+
+.opacity{
+  opacity: 1;
+}
+
+.disappear{
+  background-color: white;
+}
