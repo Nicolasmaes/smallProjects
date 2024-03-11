@@ -24,7 +24,7 @@ const texts = document.querySelector(".texts");
    ) {  
     p = document.createElement("p");  
     p.classList.add("replay");  
-    p.innerText = "My Name is Codewith_random";  
+    p.innerText = "My Name is James Bond";
     texts.appendChild(p);  
    }  
    if (text.includes("open my YouTube")) {  
